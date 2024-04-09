@@ -1,4 +1,4 @@
-# Desafio
+# Pokédex app developed using React Native with Expo
 
 <p>
   <!-- iOS -->
@@ -15,7 +15,7 @@
   </a>
 </p>
 
-## 🚀 How to use
+## How to use
 
 - Install packages with `yarn` or `npm install`.
 - Run `yarn start` or `npm run start` to start the bundler.
