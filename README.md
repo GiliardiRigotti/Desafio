@@ -41,6 +41,6 @@
 - **Purpose**: To manage screen transitions and navigation within the app.
 - **Usage**: Utilized for implementing a bottom tab navigation system, as well as facilitating navigation between different views and components within the app.
 
-  ### 5. **react-native-webview**
+### 5. **react-native-webview**
 - **Purpose**: To provide a way to display web content in a secure and customizable way within the native app.
 - **Usage**: This library was used to embed a web view that could display external web pages or resources directly within the app. It was particularly useful for showing detailed information about Pokémon that was not natively rendered in the app.
