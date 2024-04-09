@@ -1,4 +1,4 @@
-# Pokédex app developed using React Native with Expo
+# Pokedex app developed using React Native with Expo
 
 <p>
   <!-- iOS -->
