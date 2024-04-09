@@ -2,7 +2,7 @@ const pokemonType = {
     bug: require('../imgs/symbolsPokemonTypes/Pokemon_Type_Icon_Bug.png'),
     dark: require('../imgs/symbolsPokemonTypes/Pokemon_Type_Icon_Dark.png'),
     dragon: require('../imgs/symbolsPokemonTypes/Pokemon_Type_Icon_Dragon.png'),
-    eletric: require('../imgs/symbolsPokemonTypes/Pokemon_Type_Icon_Electric.png'),
+    electric: require('../imgs/symbolsPokemonTypes/Pokemon_Type_Icon_Electric.png'),
     fairy: require('../imgs/symbolsPokemonTypes/Pokemon_Type_Icon_Fairy.png'),
     fighting: require('../imgs/symbolsPokemonTypes/Pokemon_Type_Icon_Fighting.png'),
     fire: require('../imgs/symbolsPokemonTypes/Pokemon_Type_Icon_Fire.png'),
