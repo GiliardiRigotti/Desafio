@@ -17,7 +17,6 @@ export function CardPokemon({ pokemon, type }: Props) {
     const [pokemonDetail, setPokemonDetail] = useState<PokemonDetail | null>(null)
     const [images, setImages] = useState<string[]>([])
     const [modalCard, setModalCard] = useState<boolean>(false)
-    const [imageLength, setImageLength] = useState<number>(0)
 
     const handleOpenCloseDetail = () => {
         setModalCard(!modalCard)

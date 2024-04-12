@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "415bef86-8771-4fcb-b2bc-97a75d38cc0e"
+      }
+    },
+    "owner": "giliardi"
   }
 }

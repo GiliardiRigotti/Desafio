@@ -3,8 +3,7 @@ import { PokemonDetail } from "./pokemonDetail";
 
 type IRootStack = {
     HomeScreen: undefined,
-    ListPokemonScreen: { typeURL: string },
-    PokemonDetailScreen: { pokemon: PokemonDetail }
+    ListPokemonScreen: { typeURL: string }
 };
 
 export type StackRoutes = StackNavigationProp<IRootStack>

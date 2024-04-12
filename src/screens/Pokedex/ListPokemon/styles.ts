@@ -37,3 +37,16 @@ export const List = (styled.FlatList.attrs({
 })`
   width: 100%;
 ` as unknown) as typeof FlatList;
+
+export const ButtonGoBack = styled.TouchableOpacity`
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+`;
+
+export const TitleButtonGoBack = styled.Text`
+  font-size: 20px;
+  font-weight: 400;
+  color: #494949d2;
+`;
