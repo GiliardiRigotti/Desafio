@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
 import { ListPokemonTypes, PokemonTypes } from "../types/listTypes";
 import { ListPokemon } from "../types/listPokemon";
+import { Alert } from "react-native";
 
 
 interface IAppContext {
@@ -32,7 +33,7 @@ export const AppProvider: React.FC<{}> = ({ children }: IAppProvider) => {
             const response = await axios.get<{ pokemon: ListPokemon[] }>(typeURL)
             setListPokemon(response.data.pokemon)
         } catch (error) {
-            console.log(error)
+            Alert.alert('Aviso', 'Algo deu errado, tente mais tarde!')
         } finally {
             setIsLoading(false)
         }
@@ -43,12 +44,11 @@ export const AppProvider: React.FC<{}> = ({ children }: IAppProvider) => {
             setIsLoading(true)
             try {
                 const response = await axios.get<ListPokemonTypes>('https://pokeapi.co/api/v2/type/')
-                console.log(response.data.results)
                 const filteredShadown = response.data.results.filter((item) => item.name !== 'shadow')
                 const filtered = filteredShadown.filter((item) => item.name !== 'unknown')
                 setListPokemonTypes(filtered)
-            } catch (error: any) {
-                console.log(error.response.data)
+            } catch (error) {
+                Alert.alert('Aviso', 'Algo deu errado, tente mais tarde!')
             } finally {
                 setIsLoading(false)
             }

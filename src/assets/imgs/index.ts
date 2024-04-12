@@ -20,5 +20,5 @@ const pokemonType = {
 }
 
 export const image = {
-    pokemonType,
+    pokemonType
 }

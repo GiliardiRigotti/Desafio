@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Pokemon } from "../../../../../types/listPokemon";
-import { BlurClose, ButtonClose, ButtonImage, Card, CardModal, ContainerImage, Id, IdModal, ImageCard, ImageCardModal, ModalContainer, TitleCard, TitleCardModal } from "./styles";
+import { BlurClose, ButtonClose, Card, CardModal, Id, IdModal, ImageCard, ImageCardModal, ModalContainer, TitleCard, TitleCardModal } from "./styles";
 import axios from "axios";
 import Icon from "@expo/vector-icons/MaterialCommunityIcons"
 import { getColorByType } from "../../../../../constants/colours";

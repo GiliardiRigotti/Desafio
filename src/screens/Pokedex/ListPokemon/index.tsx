@@ -1,5 +1,5 @@
 import { useApp } from "../../../context/app";
-import { Container, List, Title, TitleCard } from "./styles";
+import { Container, List } from "./styles";
 import { useRoute } from "@react-navigation/native";
 import { useEffect } from "react";
 import { CardPokemon } from "./components/CardPokemon";
